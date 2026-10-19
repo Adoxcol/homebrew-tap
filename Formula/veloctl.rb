@@ -2,28 +2,28 @@
 class Veloctl < Formula
   desc "Fast, resumable, segmented downloads from the terminal"
   homepage "https://velo.adoxcol.com"
-  version "0.8.4"
+  version "0.8.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Adoxcol/velo/releases/download/v0.8.4/veloctl-0.8.4-darwin-arm64.tar.gz"
-      sha256 "7fcf80d5a880e861ebff15c62adb7b5c995e2d7c3bd3aa30468263ff0665bfe9"
+      url "https://github.com/Adoxcol/velo/releases/download/v0.8.5/veloctl-0.8.5-darwin-arm64.tar.gz"
+      sha256 "20c1edc254199d371a78762aa0936bc97be2727dcfadd9058a619c972686c567"
     end
     on_intel do
-      url "https://github.com/Adoxcol/velo/releases/download/v0.8.4/veloctl-0.8.4-darwin-amd64.tar.gz"
-      sha256 "cfcaf2c50a75b1227406442c6b21b309fbabd6ffb18dab64a02e27a2e7a3ce98"
+      url "https://github.com/Adoxcol/velo/releases/download/v0.8.5/veloctl-0.8.5-darwin-amd64.tar.gz"
+      sha256 "f11e077d564a32c8902facea09966be9d6d73aa73675f7bf66bf50446e34f731"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Adoxcol/velo/releases/download/v0.8.4/veloctl-0.8.4-linux-arm64.tar.gz"
-      sha256 "1c5ecc9e273a52c58027e8ff52f9037b09af5f4881b11e6ccf159d055021f3e7"
+      url "https://github.com/Adoxcol/velo/releases/download/v0.8.5/veloctl-0.8.5-linux-arm64.tar.gz"
+      sha256 "4a741776b8d7dc196018842d35caf97035db539a4e9a084014f5344836404f06"
     end
     on_intel do
-      url "https://github.com/Adoxcol/velo/releases/download/v0.8.4/veloctl-0.8.4-linux-amd64.tar.gz"
-      sha256 "20e9181304c831143418eac5aa3569e96450d88332f8ad2e68734ebebcfbff26"
+      url "https://github.com/Adoxcol/velo/releases/download/v0.8.5/veloctl-0.8.5-linux-amd64.tar.gz"
+      sha256 "42e0bf995ffaaef67b4628eb763a6eeb60fd20f4873003319c574fba579156c8"
     end
   end
 
